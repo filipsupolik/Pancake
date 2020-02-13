@@ -12,7 +12,7 @@
         CornerRadius="60,0,0,60" 
         IsClippedToBounds="true" 
         HorizontalOptions="FillAndExpand" 
-        HeightRequest="150">
+        HeightRequest="150"> 
     </yummy:PancakeView>
     
 </ContentPage>
