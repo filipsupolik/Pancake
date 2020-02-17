@@ -8,11 +8,19 @@
            VerticalOptions="CenterAndExpand" />
     </StackLayout>
     <yummy:PancakeView 
-        BackgroundColor="#bc91d7" 
+        Margin="16"
+        BackgroundGradientAngle="90"
+        BackgroundGradientEndcolor="DarkGoldenrot"
+        BackgroundGradientStartcolor="LightGoldenrotYellow"
         CornerRadius="60,0,0,60" 
-        IsClippedToBounds="true" 
-        HorizontalOptions="FillAndExpand" 
-        HeightRequest="150"> 
+        HasShadow="True"
+        HeightRequest="100"
+        VerticalOptions="CenterAndExpand"
+        <Label
+            Margin="16,0"
+            FontSize="50"
+            Text="Pancakeview"
+            VerticalOptions="Center"
     </yummy:PancakeView>
     
 </ContentPage>
